@@ -1,0 +1,56 @@
+/* Bryton Gustin */
+/* CSS style sheet */
+/* IS 201 */
+
+body{font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(15, 7, 7);
+background-color: aqua;
+}
+    
+/* changes all a tags (probably links) green */
+a{ color: darkgreen; font-size: 25px; text-decoration: none;}
+
+/* Makes the link that is hovered over underlined, a different font, and white */
+a:hover{
+    text-decoration: underline; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+/* Makes the font bold and normal style */
+.bold_normal{font-weight: bold;font-style: normal;}
+
+/* Makes font weight normal (allows us to only change the parent) */
+li{font-weight: normal;}
+
+/* underlines */
+.underline{text-decoration: underline;}
+
+/* justify aligns text */
+.justify{text-align: justify;}
+
+/* makes the entire background an image (in this case, blue */
+.homebg{
+    background-image: url('../images/Color-blue.jpeg');
+    background-position: top right;
+    /* background-repeat: repeat-x; */
+}
+
+/* adds a solid gray border */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+/* Adds 5px of padding */
+.box2 {
+    padding: 5px;
+
+}
+
+/* adds a 50px margin on all sides */
+.box3{
+    margin: 50px;
+}
